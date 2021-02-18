@@ -1,0 +1,19 @@
+<template>
+  <div class="home">
+    <img alt="Vue logo" src="../assets/logo.png">
+    <Titulo texto="Parte home de la web" />
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import Titulo from '@/components/Titulo.vue'
+
+
+export default {
+  name: 'Home',
+  components: {
+    Titulo
+  }
+}
+</script>
